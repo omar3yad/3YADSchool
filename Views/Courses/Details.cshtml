@@ -1,0 +1,48 @@
+﻿@model Course
+
+    @{ViewData["Title"] = "Course Details";}
+
+<div class="card shadow p-4">
+    <div class="row">
+        <div class="col-md-8">
+            <p><strong>ID:</strong> @Model.Id</p>
+            <p><strong>Course Name:</strong> @Model.Name</p>
+            <p><strong>Course Department:</strong> @Model.Department?.Name</p>
+            <p>
+                <strong>Instructors:</strong>                         
+                @if (Model.Instructors != null && Model.Instructors.Any()){@string.Join(", ", Model.Instructors.Select(i => i.Name))}                
+                else  {<span>No Instructors</span>}               
+            </p>
+            <p><strong>Hours:</strong> @Model.hours</p>
+            <p><strong>Degree:</strong> @Model.Degree </p>
+            <p><strong>Minimum Degree:</strong> @Model.MinDegree </p>
+            <p>
+                <a asp-controller="Courses" asp-action="Edit" asp-route-id="@Model.Id" class="btn btn-success">Edit</a>
+                <a asp-controller="Courses" asp-action="Remove" asp-route-id="@Model.Id" class="btn btn-danger">Remove</a>
+            </p>
+        </div>
+    </div>
+    <a asp-controller="Courses" asp-action="Index" class="btn btn-primary mt-3">Back to List</a>
+</div>
+<p></p>
+
+<h2>Course Results</h2>
+<div class="card shadow p-4">
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Trainee</th>
+                <th>Degree</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var result in Model.CrsResults)
+            {
+                <tr>
+                    <td>@result.Trainee.Name</td>
+                    <td>@result.Degree</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+    </div>

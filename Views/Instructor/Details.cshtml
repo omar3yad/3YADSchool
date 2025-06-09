@@ -1,0 +1,27 @@
+﻿
+<h2>Instructor Details</h2>
+
+<div class="card shadow p-4">
+    <div class="row">
+        <hr>
+        <div class="col-md-8">
+            <p><strong>ID:</strong> @Model.Id</p>
+            <p><strong>Name:</strong> @Model.Name</p>
+            <p><strong>Salary:</strong> @Model.Salary</p>
+
+            <p><strong>Instructor Cours</strong> @Model.Course?.Name</p>
+            <p><strong>Instructor Dept </strong> @Model.Department?.Name</p>
+        </div>
+
+        <div class="col-md-4 text-end">
+            <p><strong>Profile Picture:</strong></p>
+            <img src="~/Images/@Model.Imag" alt="Employee Image" class="img-fluid rounded" width="150">
+        </div>
+    </div>
+    <p>
+        <a asp-controller="Instructor" asp-action="Edit" asp-route-id="@Model.Id" class="btn btn-success">Edit</a>
+        <a asp-controller="Instructor" asp-action="Delete" asp-route-id="@Model.Id" class="btn btn-danger">Remove</a>
+
+    </p>
+    <a asp-controller="Instructor" asp-action="Index" class="btn btn-primary mt-3">Back to List</a>
+</div>

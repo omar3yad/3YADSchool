@@ -1,0 +1,556 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\Projects\\Backend.NET\\Projects\\ITISchool\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{46CC71C5-BBE8-4F6D-8AD7-D8AD954D39AE}|ITISchool.csproj|e:\\projects\\backend.net\\projects\\itischool\\controllers\\coursescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{46CC71C5-BBE8-4F6D-8AD7-D8AD954D39AE}|ITISchool.csproj|solutionrelative:controllers\\coursescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{46CC71C5-BBE8-4F6D-8AD7-D8AD954D39AE}|ITISchool.csproj|e:\\projects\\backend.net\\projects\\itischool\\controllers\\departmentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{46CC71C5-BBE8-4F6D-8AD7-D8AD954D39AE}|ITISchool.csproj|solutionrelative:controllers\\departmentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{46CC71C5-BBE8-4F6D-8AD7-D8AD954D39AE}|ITISchool.csproj|e:\\projects\\backend.net\\projects\\itischool\\viewmodel\\registeruserviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{46CC71C5-BBE8-4F6D-8AD7-D8AD954D39AE}|ITISchool.csproj|solutionrelative:viewmodel\\registeruserviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{46CC71C5-BBE8-4F6D-8AD7-D8AD954D39AE}|ITISchool.csproj|e:\\projects\\backend.net\\projects\\itischool\\viewmodel\\loginuserviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{46CC71C5-BBE8-4F6D-8AD7-D8AD954D39AE}|ITISchool.csproj|solutionrelative:viewmodel\\loginuserviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{46CC71C5-BBE8-4F6D-8AD7-D8AD954D39AE}|ITISchool.csproj|e:\\projects\\backend.net\\projects\\itischool\\models\\course.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{46CC71C5-BBE8-4F6D-8AD7-D8AD954D39AE}|ITISchool.csproj|solutionrelative:models\\course.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{46CC71C5-BBE8-4F6D-8AD7-D8AD954D39AE}|ITISchool.csproj|e:\\projects\\backend.net\\projects\\itischool\\filter\\handleerrorattribute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{46CC71C5-BBE8-4F6D-8AD7-D8AD954D39AE}|ITISchool.csproj|solutionrelative:filter\\handleerrorattribute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{46CC71C5-BBE8-4F6D-8AD7-D8AD954D39AE}|ITISchool.csproj|e:\\projects\\backend.net\\projects\\itischool\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{46CC71C5-BBE8-4F6D-8AD7-D8AD954D39AE}|ITISchool.csproj|solutionrelative:controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{46CC71C5-BBE8-4F6D-8AD7-D8AD954D39AE}|ITISchool.csproj|e:\\projects\\backend.net\\projects\\itischool\\migrations\\20250211113318_inev.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{46CC71C5-BBE8-4F6D-8AD7-D8AD954D39AE}|ITISchool.csproj|solutionrelative:migrations\\20250211113318_inev.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{46CC71C5-BBE8-4F6D-8AD7-D8AD954D39AE}|ITISchool.csproj|e:\\projects\\backend.net\\projects\\itischool\\repository\\traineerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{46CC71C5-BBE8-4F6D-8AD7-D8AD954D39AE}|ITISchool.csproj|solutionrelative:repository\\traineerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{46CC71C5-BBE8-4F6D-8AD7-D8AD954D39AE}|ITISchool.csproj|e:\\projects\\backend.net\\projects\\itischool\\repository\\insructorrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{46CC71C5-BBE8-4F6D-8AD7-D8AD954D39AE}|ITISchool.csproj|solutionrelative:repository\\insructorrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{46CC71C5-BBE8-4F6D-8AD7-D8AD954D39AE}|ITISchool.csproj|e:\\projects\\backend.net\\projects\\itischool\\repository\\courserepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{46CC71C5-BBE8-4F6D-8AD7-D8AD954D39AE}|ITISchool.csproj|solutionrelative:repository\\courserepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{46CC71C5-BBE8-4F6D-8AD7-D8AD954D39AE}|ITISchool.csproj|e:\\projects\\backend.net\\projects\\itischool\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{46CC71C5-BBE8-4F6D-8AD7-D8AD954D39AE}|ITISchool.csproj|solutionrelative:views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{46CC71C5-BBE8-4F6D-8AD7-D8AD954D39AE}|ITISchool.csproj|e:\\projects\\backend.net\\projects\\itischool\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{46CC71C5-BBE8-4F6D-8AD7-D8AD954D39AE}|ITISchool.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{46CC71C5-BBE8-4F6D-8AD7-D8AD954D39AE}|ITISchool.csproj|e:\\projects\\backend.net\\projects\\itischool\\wwwroot\\favicon.ico||{177559E0-D141-11D0-92DF-00A0C9138C45}",
+      "RelativeMoniker": "D:0:0:{46CC71C5-BBE8-4F6D-8AD7-D8AD954D39AE}|ITISchool.csproj|solutionrelative:wwwroot\\favicon.ico||{177559E0-D141-11D0-92DF-00A0C9138C45}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{46CC71C5-BBE8-4F6D-8AD7-D8AD954D39AE}|ITISchool.csproj|e:\\projects\\backend.net\\projects\\itischool\\views\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{46CC71C5-BBE8-4F6D-8AD7-D8AD954D39AE}|ITISchool.csproj|solutionrelative:views\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{46CC71C5-BBE8-4F6D-8AD7-D8AD954D39AE}|ITISchool.csproj|e:\\projects\\backend.net\\projects\\itischool\\views\\shared\\_mylayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{46CC71C5-BBE8-4F6D-8AD7-D8AD954D39AE}|ITISchool.csproj|solutionrelative:views\\shared\\_mylayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{46CC71C5-BBE8-4F6D-8AD7-D8AD954D39AE}|ITISchool.csproj|e:\\projects\\backend.net\\projects\\itischool\\repository\\departmentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{46CC71C5-BBE8-4F6D-8AD7-D8AD954D39AE}|ITISchool.csproj|solutionrelative:repository\\departmentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{46CC71C5-BBE8-4F6D-8AD7-D8AD954D39AE}|ITISchool.csproj|e:\\projects\\backend.net\\projects\\itischool\\identity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{46CC71C5-BBE8-4F6D-8AD7-D8AD954D39AE}|ITISchool.csproj|solutionrelative:identity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{46CC71C5-BBE8-4F6D-8AD7-D8AD954D39AE}|ITISchool.csproj|e:\\projects\\backend.net\\projects\\itischool\\repository\\iinsructorrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{46CC71C5-BBE8-4F6D-8AD7-D8AD954D39AE}|ITISchool.csproj|solutionrelative:repository\\iinsructorrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{46CC71C5-BBE8-4F6D-8AD7-D8AD954D39AE}|ITISchool.csproj|e:\\projects\\backend.net\\projects\\itischool\\models\\department.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{46CC71C5-BBE8-4F6D-8AD7-D8AD954D39AE}|ITISchool.csproj|solutionrelative:models\\department.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{46CC71C5-BBE8-4F6D-8AD7-D8AD954D39AE}|ITISchool.csproj|e:\\projects\\backend.net\\projects\\itischool\\models\\itischoolcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{46CC71C5-BBE8-4F6D-8AD7-D8AD954D39AE}|ITISchool.csproj|solutionrelative:models\\itischoolcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{46CC71C5-BBE8-4F6D-8AD7-D8AD954D39AE}|ITISchool.csproj|e:\\projects\\backend.net\\projects\\itischool\\models\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{46CC71C5-BBE8-4F6D-8AD7-D8AD954D39AE}|ITISchool.csproj|solutionrelative:models\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{46CC71C5-BBE8-4F6D-8AD7-D8AD954D39AE}|ITISchool.csproj|e:\\projects\\backend.net\\projects\\itischool\\identifysteps.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{46CC71C5-BBE8-4F6D-8AD7-D8AD954D39AE}|ITISchool.csproj|solutionrelative:identifysteps.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{46CC71C5-BBE8-4F6D-8AD7-D8AD954D39AE}|ITISchool.csproj|e:\\projects\\backend.net\\projects\\itischool\\itischool.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{46CC71C5-BBE8-4F6D-8AD7-D8AD954D39AE}|ITISchool.csproj|solutionrelative:itischool.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{46CC71C5-BBE8-4F6D-8AD7-D8AD954D39AE}|ITISchool.csproj|e:\\projects\\backend.net\\projects\\itischool\\repository\\idepartmentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{46CC71C5-BBE8-4F6D-8AD7-D8AD954D39AE}|ITISchool.csproj|solutionrelative:repository\\idepartmentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{46CC71C5-BBE8-4F6D-8AD7-D8AD954D39AE}|ITISchool.csproj|e:\\projects\\backend.net\\projects\\itischool\\controllers\\instructorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{46CC71C5-BBE8-4F6D-8AD7-D8AD954D39AE}|ITISchool.csproj|solutionrelative:controllers\\instructorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{46CC71C5-BBE8-4F6D-8AD7-D8AD954D39AE}|ITISchool.csproj|e:\\projects\\backend.net\\projects\\itischool\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{46CC71C5-BBE8-4F6D-8AD7-D8AD954D39AE}|ITISchool.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{46CC71C5-BBE8-4F6D-8AD7-D8AD954D39AE}|ITISchool.csproj|e:\\projects\\backend.net\\projects\\itischool\\itischool.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{46CC71C5-BBE8-4F6D-8AD7-D8AD954D39AE}|ITISchool.csproj|solutionrelative:itischool.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{46CC71C5-BBE8-4F6D-8AD7-D8AD954D39AE}|ITISchool.csproj|e:\\projects\\backend.net\\projects\\itischool\\migrations\\itischoolcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{46CC71C5-BBE8-4F6D-8AD7-D8AD954D39AE}|ITISchool.csproj|solutionrelative:migrations\\itischoolcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{46CC71C5-BBE8-4F6D-8AD7-D8AD954D39AE}|ITISchool.csproj|e:\\projects\\backend.net\\projects\\itischool\\controllers\\filtercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{46CC71C5-BBE8-4F6D-8AD7-D8AD954D39AE}|ITISchool.csproj|solutionrelative:controllers\\filtercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{46CC71C5-BBE8-4F6D-8AD7-D8AD954D39AE}|ITISchool.csproj|e:\\projects\\backend.net\\projects\\itischool\\controllers\\traineescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{46CC71C5-BBE8-4F6D-8AD7-D8AD954D39AE}|ITISchool.csproj|solutionrelative:controllers\\traineescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{46CC71C5-BBE8-4F6D-8AD7-D8AD954D39AE}|ITISchool.csproj|e:\\projects\\backend.net\\projects\\itischool\\migrations\\20250307141414_authtable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{46CC71C5-BBE8-4F6D-8AD7-D8AD954D39AE}|ITISchool.csproj|solutionrelative:migrations\\20250307141414_authtable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{46CC71C5-BBE8-4F6D-8AD7-D8AD954D39AE}|ITISchool.csproj|e:\\projects\\backend.net\\projects\\itischool\\models\\traineedepartment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{46CC71C5-BBE8-4F6D-8AD7-D8AD954D39AE}|ITISchool.csproj|solutionrelative:models\\traineedepartment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{a83394e3-39c2-4678-a3c8-364b69d78fd3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{f4e46f1e-cf83-40aa-b568-a627394bc994}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Course.cs",
+              "DocumentMoniker": "E:\\Projects\\Backend.NET\\Projects\\ITISchool\\Models\\Course.cs",
+              "RelativeDocumentMoniker": "Models\\Course.cs",
+              "ToolTip": "E:\\Projects\\Backend.NET\\Projects\\ITISchool\\Models\\Course.cs",
+              "RelativeToolTip": "Models\\Course.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-08T12:35:31.425Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "LoginUserViewModel.cs",
+              "DocumentMoniker": "E:\\Projects\\Backend.NET\\Projects\\ITISchool\\ViewModel\\LoginUserViewModel.cs",
+              "RelativeDocumentMoniker": "ViewModel\\LoginUserViewModel.cs",
+              "ToolTip": "E:\\Projects\\Backend.NET\\Projects\\ITISchool\\ViewModel\\LoginUserViewModel.cs",
+              "RelativeToolTip": "ViewModel\\LoginUserViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-19T23:59:57.575Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "registerUserViewModel.cs",
+              "DocumentMoniker": "E:\\Projects\\Backend.NET\\Projects\\ITISchool\\ViewModel\\registerUserViewModel.cs",
+              "RelativeDocumentMoniker": "ViewModel\\registerUserViewModel.cs",
+              "ToolTip": "E:\\Projects\\Backend.NET\\Projects\\ITISchool\\ViewModel\\registerUserViewModel.cs",
+              "RelativeToolTip": "ViewModel\\registerUserViewModel.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAApwA8AAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-07T14:41:45.251Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "DepartmentController.cs",
+              "DocumentMoniker": "E:\\Projects\\Backend.NET\\Projects\\ITISchool\\Controllers\\DepartmentController.cs",
+              "RelativeDocumentMoniker": "Controllers\\DepartmentController.cs",
+              "ToolTip": "E:\\Projects\\Backend.NET\\Projects\\ITISchool\\Controllers\\DepartmentController.cs",
+              "RelativeToolTip": "Controllers\\DepartmentController.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABEAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-08T04:33:30.953Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CoursesController.cs",
+              "DocumentMoniker": "E:\\Projects\\Backend.NET\\Projects\\ITISchool\\Controllers\\CoursesController.cs",
+              "RelativeDocumentMoniker": "Controllers\\CoursesController.cs",
+              "ToolTip": "E:\\Projects\\Backend.NET\\Projects\\ITISchool\\Controllers\\CoursesController.cs",
+              "RelativeToolTip": "Controllers\\CoursesController.cs",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAwwDMAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-15T01:06:59.547Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "HandleErrorAttribute.cs",
+              "DocumentMoniker": "E:\\Projects\\Backend.NET\\Projects\\ITISchool\\Filter\\HandleErrorAttribute.cs",
+              "RelativeDocumentMoniker": "Filter\\HandleErrorAttribute.cs",
+              "ToolTip": "E:\\Projects\\Backend.NET\\Projects\\ITISchool\\Filter\\HandleErrorAttribute.cs",
+              "RelativeToolTip": "Filter\\HandleErrorAttribute.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-08T12:29:43.548Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "TraineeRepository.cs",
+              "DocumentMoniker": "E:\\Projects\\Backend.NET\\Projects\\ITISchool\\Repository\\TraineeRepository.cs",
+              "RelativeDocumentMoniker": "Repository\\TraineeRepository.cs",
+              "ToolTip": "E:\\Projects\\Backend.NET\\Projects\\ITISchool\\Repository\\TraineeRepository.cs",
+              "RelativeToolTip": "Repository\\TraineeRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-08T12:29:37.353Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "E:\\Projects\\Backend.NET\\Projects\\ITISchool\\Views\\Account\\Login.cshtml",
+              "RelativeDocumentMoniker": "Views\\Account\\Login.cshtml",
+              "ToolTip": "E:\\Projects\\Backend.NET\\Projects\\ITISchool\\Views\\Account\\Login.cshtml",
+              "RelativeToolTip": "Views\\Account\\Login.cshtml",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAowBUAAABBAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-20T00:05:13.131Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Program.cs",
+              "DocumentMoniker": "E:\\Projects\\Backend.NET\\Projects\\ITISchool\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "E:\\Projects\\Backend.NET\\Projects\\ITISchool\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADMAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-19T22:34:18.92Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "20250211113318_Inev.cs",
+              "DocumentMoniker": "E:\\Projects\\Backend.NET\\Projects\\ITISchool\\Migrations\\20250211113318_Inev.cs",
+              "RelativeDocumentMoniker": "Migrations\\20250211113318_Inev.cs",
+              "ToolTip": "E:\\Projects\\Backend.NET\\Projects\\ITISchool\\Migrations\\20250211113318_Inev.cs",
+              "RelativeToolTip": "Migrations\\20250211113318_Inev.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-15T01:06:16.526Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "E:\\Projects\\Backend.NET\\Projects\\ITISchool\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AccountController.cs",
+              "ToolTip": "E:\\Projects\\Backend.NET\\Projects\\ITISchool\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "Controllers\\AccountController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-07T14:16:36.378Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Register.cshtml",
+              "DocumentMoniker": "E:\\Projects\\Backend.NET\\Projects\\ITISchool\\Views\\Account\\Register.cshtml",
+              "RelativeDocumentMoniker": "Views\\Account\\Register.cshtml",
+              "ToolTip": "E:\\Projects\\Backend.NET\\Projects\\ITISchool\\Views\\Account\\Register.cshtml",
+              "RelativeToolTip": "Views\\Account\\Register.cshtml",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABIAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-07T15:05:25.955Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "CourseRepository.cs",
+              "DocumentMoniker": "E:\\Projects\\Backend.NET\\Projects\\ITISchool\\Repository\\CourseRepository.cs",
+              "RelativeDocumentMoniker": "Repository\\CourseRepository.cs",
+              "ToolTip": "E:\\Projects\\Backend.NET\\Projects\\ITISchool\\Repository\\CourseRepository.cs",
+              "RelativeToolTip": "Repository\\CourseRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-15T01:24:12.6Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "InsructorRepository.cs",
+              "DocumentMoniker": "E:\\Projects\\Backend.NET\\Projects\\ITISchool\\Repository\\InsructorRepository.cs",
+              "RelativeDocumentMoniker": "Repository\\InsructorRepository.cs",
+              "ToolTip": "E:\\Projects\\Backend.NET\\Projects\\ITISchool\\Repository\\InsructorRepository.cs",
+              "RelativeToolTip": "Repository\\InsructorRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-15T01:24:18.122Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "_MyLayout.cshtml",
+              "DocumentMoniker": "E:\\Projects\\Backend.NET\\Projects\\ITISchool\\Views\\Shared\\_MyLayout.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_MyLayout.cshtml",
+              "ToolTip": "E:\\Projects\\Backend.NET\\Projects\\ITISchool\\Views\\Shared\\_MyLayout.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_MyLayout.cshtml",
+              "ViewState": "AgIAADUBAAAAAAAAAAAYwFQBAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-20T00:24:59.649Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "favicon.ico - Icon [32x32, 32 bit, BMP]",
+              "DocumentMoniker": "E:\\Projects\\Backend.NET\\Projects\\ITISchool\\wwwroot\\favicon.ico",
+              "RelativeDocumentMoniker": "wwwroot\\favicon.ico",
+              "ToolTip": "E:\\Projects\\Backend.NET\\Projects\\ITISchool\\wwwroot\\favicon.ico - Icon [32x32, 32 bit, BMP]",
+              "RelativeToolTip": "wwwroot\\favicon.ico - Icon [32x32, 32 bit, BMP]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001525|",
+              "WhenOpened": "2025-04-25T00:59:26.276Z",
+              "EditorCaption": " - Icon [32x32, 32 bit, BMP]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "DepartmentRepository.cs",
+              "DocumentMoniker": "E:\\Projects\\Backend.NET\\Projects\\ITISchool\\Repository\\DepartmentRepository.cs",
+              "RelativeDocumentMoniker": "Repository\\DepartmentRepository.cs",
+              "ToolTip": "E:\\Projects\\Backend.NET\\Projects\\ITISchool\\Repository\\DepartmentRepository.cs",
+              "RelativeToolTip": "Repository\\DepartmentRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-08T04:33:36.68Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "identity.cs",
+              "DocumentMoniker": "E:\\Projects\\Backend.NET\\Projects\\ITISchool\\identity.cs",
+              "RelativeDocumentMoniker": "identity.cs",
+              "ToolTip": "E:\\Projects\\Backend.NET\\Projects\\ITISchool\\identity.cs",
+              "RelativeToolTip": "identity.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-16T23:05:59.507Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "IInsructorRepository.cs",
+              "DocumentMoniker": "E:\\Projects\\Backend.NET\\Projects\\ITISchool\\Repository\\IInsructorRepository.cs",
+              "RelativeDocumentMoniker": "Repository\\IInsructorRepository.cs",
+              "ToolTip": "E:\\Projects\\Backend.NET\\Projects\\ITISchool\\Repository\\IInsructorRepository.cs",
+              "RelativeToolTip": "Repository\\IInsructorRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-15T01:21:59.505Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Department.cs",
+              "DocumentMoniker": "E:\\Projects\\Backend.NET\\Projects\\ITISchool\\Models\\Department.cs",
+              "RelativeDocumentMoniker": "Models\\Department.cs",
+              "ToolTip": "E:\\Projects\\Backend.NET\\Projects\\ITISchool\\Models\\Department.cs",
+              "RelativeToolTip": "Models\\Department.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-19T21:47:48.174Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "ApplicationUser.cs",
+              "DocumentMoniker": "E:\\Projects\\Backend.NET\\Projects\\ITISchool\\Models\\ApplicationUser.cs",
+              "RelativeDocumentMoniker": "Models\\ApplicationUser.cs",
+              "ToolTip": "E:\\Projects\\Backend.NET\\Projects\\ITISchool\\Models\\ApplicationUser.cs",
+              "RelativeToolTip": "Models\\ApplicationUser.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-16T23:13:13.87Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "ITISchoolContext.cs",
+              "DocumentMoniker": "E:\\Projects\\Backend.NET\\Projects\\ITISchool\\Models\\ITISchoolContext.cs",
+              "RelativeDocumentMoniker": "Models\\ITISchoolContext.cs",
+              "ToolTip": "E:\\Projects\\Backend.NET\\Projects\\ITISchool\\Models\\ITISchoolContext.cs",
+              "RelativeToolTip": "Models\\ITISchoolContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-07T13:19:43.784Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "IdentifySteps.cs",
+              "DocumentMoniker": "E:\\Projects\\Backend.NET\\Projects\\ITISchool\\IdentifySteps.cs",
+              "RelativeDocumentMoniker": "IdentifySteps.cs",
+              "ToolTip": "E:\\Projects\\Backend.NET\\Projects\\ITISchool\\IdentifySteps.cs",
+              "RelativeToolTip": "IdentifySteps.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-16T23:12:47.119Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "ITISchool.csproj",
+              "DocumentMoniker": "E:\\Projects\\Backend.NET\\Projects\\ITISchool\\ITISchool.csproj",
+              "RelativeDocumentMoniker": "ITISchool.csproj",
+              "ToolTip": "E:\\Projects\\Backend.NET\\Projects\\ITISchool\\ITISchool.csproj",
+              "RelativeToolTip": "ITISchool.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-03-07T14:40:32.253Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "IDepartmentRepository.cs",
+              "DocumentMoniker": "E:\\Projects\\Backend.NET\\Projects\\ITISchool\\Repository\\IDepartmentRepository.cs",
+              "RelativeDocumentMoniker": "Repository\\IDepartmentRepository.cs",
+              "ToolTip": "E:\\Projects\\Backend.NET\\Projects\\ITISchool\\Repository\\IDepartmentRepository.cs",
+              "RelativeToolTip": "Repository\\IDepartmentRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-15T01:24:52.356Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "E:\\Projects\\Backend.NET\\Projects\\ITISchool\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
+              "ToolTip": "E:\\Projects\\Backend.NET\\Projects\\ITISchool\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-15T01:13:53.782Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "ITISchool",
+              "DocumentMoniker": "E:\\Projects\\Backend.NET\\Projects\\ITISchool\\ITISchool.csproj",
+              "RelativeDocumentMoniker": "ITISchool.csproj",
+              "ToolTip": "E:\\Projects\\Backend.NET\\Projects\\ITISchool\\ITISchool.csproj",
+              "RelativeToolTip": "ITISchool.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-04-15T01:06:20.496Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "ITISchoolContextModelSnapshot.cs",
+              "DocumentMoniker": "E:\\Projects\\Backend.NET\\Projects\\ITISchool\\Migrations\\ITISchoolContextModelSnapshot.cs",
+              "RelativeDocumentMoniker": "Migrations\\ITISchoolContextModelSnapshot.cs",
+              "ToolTip": "E:\\Projects\\Backend.NET\\Projects\\ITISchool\\Migrations\\ITISchoolContextModelSnapshot.cs",
+              "RelativeToolTip": "Migrations\\ITISchoolContextModelSnapshot.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-15T01:06:17.88Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "InstructorController.cs",
+              "DocumentMoniker": "E:\\Projects\\Backend.NET\\Projects\\ITISchool\\Controllers\\InstructorController.cs",
+              "RelativeDocumentMoniker": "Controllers\\InstructorController.cs",
+              "ToolTip": "E:\\Projects\\Backend.NET\\Projects\\ITISchool\\Controllers\\InstructorController.cs",
+              "RelativeToolTip": "Controllers\\InstructorController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-08T04:33:33.969Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "FilterController.cs",
+              "DocumentMoniker": "E:\\Projects\\Backend.NET\\Projects\\ITISchool\\Controllers\\FilterController.cs",
+              "RelativeDocumentMoniker": "Controllers\\FilterController.cs",
+              "ToolTip": "E:\\Projects\\Backend.NET\\Projects\\ITISchool\\Controllers\\FilterController.cs",
+              "RelativeToolTip": "Controllers\\FilterController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-08T04:33:27.702Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "20250307141414_AuthTable.cs",
+              "DocumentMoniker": "E:\\Projects\\Backend.NET\\Projects\\ITISchool\\Migrations\\20250307141414_AuthTable.cs",
+              "RelativeDocumentMoniker": "Migrations\\20250307141414_AuthTable.cs",
+              "ToolTip": "E:\\Projects\\Backend.NET\\Projects\\ITISchool\\Migrations\\20250307141414_AuthTable.cs",
+              "RelativeToolTip": "Migrations\\20250307141414_AuthTable.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAgwBkAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-07T14:14:15.277Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "TraineesController.cs",
+              "DocumentMoniker": "E:\\Projects\\Backend.NET\\Projects\\ITISchool\\Controllers\\TraineesController.cs",
+              "RelativeDocumentMoniker": "Controllers\\TraineesController.cs",
+              "ToolTip": "E:\\Projects\\Backend.NET\\Projects\\ITISchool\\Controllers\\TraineesController.cs",
+              "RelativeToolTip": "Controllers\\TraineesController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-07T13:19:35.496Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "TraineeDepartment.cs",
+              "DocumentMoniker": "E:\\Projects\\Backend.NET\\Projects\\ITISchool\\Models\\TraineeDepartment.cs",
+              "RelativeDocumentMoniker": "Models\\TraineeDepartment.cs",
+              "ToolTip": "E:\\Projects\\Backend.NET\\Projects\\ITISchool\\Models\\TraineeDepartment.cs",
+              "RelativeToolTip": "Models\\TraineeDepartment.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-07T13:19:41.959Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

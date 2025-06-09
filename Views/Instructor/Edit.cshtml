@@ -1,0 +1,58 @@
+﻿@model InstructorDepartmentCourse
+
+
+@{
+    ViewData["Title"] = "Edit Instructor";
+}
+
+<h2>@ViewData["Title"]</h2>
+
+<div class="card shadow p-4">
+    <h4>Edit Instructor Information</h4>
+    <hr>
+
+    <form action="/Instructor/SaveEdit" method="post">
+        <input type="hidden" asp-for="Id" />
+        <input type="hidden" name="Imag" value="1.jpg">
+
+
+        <div class="mb-3">
+            <label asp-for="Name" class="form-label">Instructor Name</label>
+            <input asp-for="Name" value="@Model.Name " class=" form-control" required />
+        </div>
+
+        <div class="mb-3">
+            <label asp-for="Salary" class="form-label">Salary </label>
+            <input asp-for="Salary" value="@Model.Salary" class="form-control" required />
+        </div>
+
+
+        <div class="form-group">
+            <label for="Department">Department</label>
+            <select class="form-control" id="Department" name="DeptId" required>
+                <option value="">-- Select Department --</option>
+                @foreach (var dept in Model?.departments ?? new List<Department>())
+                {
+                    <option value="@dept.Id">@dept.Name</option>
+                }
+            </select>
+        </div>
+
+        <div class="form-group">
+            <label for="Course">Course</label>
+            <select class="form-control" id="Course" name="CrsId">
+                <option value="">-- Select Course --</option>
+                @foreach (var course in Model?.Course ?? new List<Course>())
+                {
+                    <option value="@course.Id">@course.Name</option>
+                }
+            </select>
+
+        </div>
+
+
+        <button type="submit" class="btn btn-success">Save Changes</button>
+        <a asp-controller="Instructor" asp-action="SaveEdit" class="btn btn-secondary">Cancel</a>
+
+    </form>
+</div>

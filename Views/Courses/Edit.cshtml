@@ -1,0 +1,64 @@
+﻿@using ITISchool.Models
+@model CourseDepartmentInstructors
+@{ViewData["Title"] = "Edit Courses";}
+
+<form action="/Courses/SaveCourses" method="post">
+    <input type="hidden" name="Id" value="@Model?.Id" />
+    <div class="card shadow p-4">
+
+        <div class="form-group">
+            <label for="name">Name</label>
+            <input type="text" class="form-control" id="Name" value="@Model?.Name" name="Name" required>
+        </div>
+
+        <div class="form-group">
+            <label for="Department">Course Department</label>
+            <select class="form-control" id="Department" name="DeptID" required>
+                <option value="@Model.DeptID">@Model</option>
+                @foreach (var dept in Model?.departments ?? new List<Department>())
+                {
+                    <option value="@dept.Id" selected="@(Model?.DeptID == dept.Id ? "selected" : null)">
+                        @dept.Name
+                    </option>
+
+                }
+            </select>
+        </div>
+
+        <div class="form-group">
+            <label for="Instructors">Course Instructors</label>
+            <select class="form-control" id="Instructors" name="InstIDs" multiple required>
+                @foreach (var instructor in Model?.instructors ?? new List<Instructor>())
+                {
+                    <option value="@instructor.Id" selected="@(Model?.InstIDs.Contains(instructor.Id) ?? false)">
+                        @instructor.Name
+                    </option>
+
+                }
+            </select>
+        </div>
+
+
+
+        <div class="form-group">
+            <label for="Hours">Hours</label>
+            <input type="text" class="form-control" id="Hours" value="@Model?.hours" name="Hours" required>
+        </div>
+
+        <div class="form-group">
+            <label for="Degree">Degree</label>
+            <input type="text" class="form-control" id="Degree" value="@Model?.Degree" name="Degree" required>
+        </div>
+
+        <div class="form-group">
+            <label for="MinDegree">Minimum Degree</label>
+            <input type="text" class="form-control" id="MinDegree" value="@Model?.MinDegree" name="MinDegree" required>
+        </div>
+        
+        <div class="form-group">
+           <p></p>
+        <button type="submit" class="btn btn-success">Save Changes</button>
+        <a asp-controller="Courses" asp-action="ById" asp-route-id="@Model?.Id" class="btn btn-secondary">Cancel</a>
+        </div>
+    </div>
+</form>

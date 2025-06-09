@@ -1,0 +1,90 @@
+﻿@model ITISchool.Models.Department
+
+@{
+    ViewData["Title"] = "Department Details";
+}
+
+    <div class="card shadow p-4">
+        <div class="card-body">
+            <ul class="list-group list-group-flush">
+                <li class="list-group-item"><strong>ID:</strong> @Model.Id</li>
+                <li class="list-group-item"><strong>Name:</strong> @Model.Name</li>
+                <li class="list-group-item"><strong>Manager:</strong> @Model.Manager</li>
+            </ul>
+<p></p>
+            <p>
+                <a asp-controller="Department" asp-action="Edit" asp-route-id="@Model.Id" class="btn btn-success">Edit</a>
+                <a asp-controller="Department" asp-action="Delete" asp-route-id="@Model.Id" class="btn btn-danger">Remove</a>
+            </p>
+        <a asp-controller="Trainees" asp-action="Index" class="btn btn-primary w-100">Back to List</a>
+        </div>
+    </div>
+
+
+
+
+<p></p>
+<h2>Instructors</h2>
+<div class="card shadow p-4">
+    <table class="table">
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Name</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var result in Model.instructors)
+            {
+                <tr>
+                    <td>@result.Id</td>
+                    <td>@result.Name</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>
+
+<p></p>
+<h2>Courses</h2>
+<div class="card shadow p-4">
+    <table class="table">
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Name</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var result in Model.courses)
+            {
+                <tr>
+                    <td>@result.Id</td>
+                    <td>@result.Name</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>
+
+<p></p>
+<h2>Trainees</h2>
+<div class="card shadow p-4">
+    <table class="table">
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Name</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var result in Model.trainees)  @* Fixed Property Reference *@
+            {
+                <tr>
+                    <td>@result.Id</td>
+                    <td>@result.Name</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>

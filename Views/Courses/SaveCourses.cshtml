@@ -1,0 +1,43 @@
+﻿@{
+    ViewData["Title"] = "Instructor";
+}
+
+@model List<Instructor>
+<form method="get" asp-action="Search" class="mb-4">
+    <div class="input-group">
+        <input type="text" name="s" class="form-control" placeholder="Search by name..." value="" />
+        <button type="submit" class="btn btn-primary">Search</button>
+    </div>
+</form>
+
+<h1>Instructor</h1>
+
+<div>
+    <a asp-controller="Instructor" asp-action="AddInstructor" class="btn btn-primary">Add Instructor</a>
+</div>
+
+<hr />
+
+<table class="table table-bordered table-hover">
+    <thead>
+        <tr>
+            <th>Instructor Name</th>
+            <th>Instructor Department</th>
+            <th>Instructor Course</th>
+            <th>Instructor Details</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@item.Name</td>
+                <td>@item.Department?.Name</td>
+                <td>@item.Course?.Name</td>
+                <td>
+                    <a asp-controller="Instructor" asp-action="GetById" asp-route-id="@item.Id" class="btn btn-primary">View Details</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

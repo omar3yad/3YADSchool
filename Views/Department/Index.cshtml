@@ -1,0 +1,35 @@
+﻿
+@model List<Department>
+
+@{
+    ViewData["Title"] = "Departments";
+}
+<div>
+    <a asp-controller="Instructor" asp-action="AddInstructor" class="btn btn-primary w-100">Add Instructor</a>
+</div>
+<p></p>
+
+<div></div>
+<div class="card shadow p-4">
+    <table class="table">
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Name</th>
+                <th>Actions</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var dept in Model)
+            {
+                <tr>
+                    <td>@dept.Id</td>
+                    <td>@dept.Name</td>
+                    <td>
+                        <a asp-controller="Department" asp-action="ById" asp-route-id="@dept.Id" class="btn btn-primary">View Details</a>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>

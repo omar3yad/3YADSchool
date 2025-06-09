@@ -1,0 +1,47 @@
+﻿@model Trainee
+   @{ ViewData["Title"] = "Trainee";}
+<div class="card shadow p-4">
+    <div class="row">
+       
+        <div class="col-md-8">
+            <p><strong>ID:</strong> @Model.Id</p>
+            <p><strong>Name:</strong> @Model.Name</p>
+            <p><strong>Trainee Dept:</strong> @Model.Department?.Name</p>
+            <p><strong>Grade:</strong> @Model.Grade</p>
+            <p><strong>Address:</strong> @Model.Address </p>
+            <p>
+                <a asp-controller="Trainees" asp-action="Edit" asp-route-id="@Model.Id" class="btn btn-success">Edit</a>
+                <a asp-controller="Trainees" asp-action="Delete" asp-route-id="@Model.Id" class="btn btn-danger">Remove</a>
+            </p>    
+        </div>
+
+        <div class="col-md-4 text-end">
+            <p><strong>Profile Picture:</strong></p>
+            <img src="~/Images/@Model.Image" alt="Employee Image" class="img-fluid rounded" width="150">
+        </div>
+    </div>
+    <a asp-controller="Trainees" asp-action="Index" class="btn btn-primary mt-3">Back to List</a>
+</div>
+<p></p>
+
+<h2>Course Results</h2>
+<div class="card shadow p-4">
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Course</th>
+                <th>Degree</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var result in Model.CrsResults)
+            {
+                <tr>
+                    <td>@result.Course.Name</td>
+                    <td>@result.Degree</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+<div/>
+
