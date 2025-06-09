@@ -30,4 +30,13 @@ A full-featured academic management system built using **ASP.NET Core MVC**. Thi
 ---
 
 ## 📂 Project Structure
-
+ITISchool/
+- Controllers
+- Models
+-Repository
+- ViewModel
+- Views
+- Migrations
+- wwwroot
+- appsettings.json
+- Program.cs
